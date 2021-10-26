@@ -5,5 +5,5 @@ A vectorized iterative implementation of the paper ["Retrofitting Word Vectors t
 A samll subset of sample files are presented in the examples folder. The program can be run as:
 
 ```
-py retrofit.py --input example/sample_vec.txt --neighbours example/framenet.txt --output example/retrofitted_emb.txt --n_iter 10
+python3 retrofit.py --input example/sample_vec.txt --neighbours example/framenet.txt --output example/retrofitted_emb.txt --n_iter 10
 ```
